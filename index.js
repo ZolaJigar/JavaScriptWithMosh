@@ -123,11 +123,11 @@
 
 //Escape notation
 
-const msg = '  This is my \'first message'; //it will include this(') inside your string which is used to bracket of string
-console.log(msg);
+// const msg = '  This is my \'first message'; //it will include this(') inside your string which is used to bracket of string
+// console.log(msg);
 
-const msg1 = '  This is my \n first message';   // \n It will use for new line
-console.log(msg1);
+// const msg1 = '  This is my \n first message';   // \n It will use for new line
+// console.log(msg1);
 
-const msg2 = '  This is my \n first message';   //  .split method will use to split the string with particular thing
-console.log(msg1.split(' ' ));
+// const msg2 = '  This is my \n first message';   //  .split method will use to split the string with particular thing
+// console.log(msg1.split(' ' ));
