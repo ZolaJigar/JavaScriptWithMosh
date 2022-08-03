@@ -75,24 +75,50 @@
 
 //Functions in JS
 
-function greet() {
-    console.log('Hello world');
-}
-greet();
+// function greet() {
+//     console.log('Hello world');
+// }
+// greet();
 
-//How to pass value inside the function as arguments
+// //How to pass value inside the function as arguments
 
-function greet(name) {   //Here name is parameter
-    console.log('Hello ' + name);
-}
-greet('john'); //Its argument that indicate that parameter which is inside the function as arguments
+// function greet(name) {   //Here name is parameter
+//     console.log('Hello ' + name);
+// }
+// greet('john'); //Its argument that indicate that parameter which is inside the function as arguments
 
-//Types of functions
+// //Types of functions
 
-//Calculating a value
+// //Calculating a value
 
-function square(number){
-    return number * number ;
-}
-// let result = square(5);
-console.log(square(2));
+// function square(number){
+//     return number * number ;
+// }
+// // let result = square(5);
+// console.log(square(2));
+
+
+
+//Strings primitives inside the JavaScript
+const message = '      hi i am jigar maheshwari     ';
+console.log(message.length);
+console.log(message[0]);
+console.log(message.includes('i'));
+console.log(message.includes('lol'));
+console.log(message.startsWith('hi'));
+console.log(message.startsWith('I'));
+console.log(message.endsWith('maheshwari'));
+console.log(message.toUpperCase());
+console.log(message.toLowerCase());
+console.log(message.indexOf('maheshwari'));
+console.log(message.replace('maheshwari' , 'zola'));
+console.log(message.trim( ));
+console.log(message.trimRight( ));
+console.log(message.trimLeft( ));
+
+
+
+
+//String object
+
+const another = new String('hi');
