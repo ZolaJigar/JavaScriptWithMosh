@@ -17,28 +17,35 @@
 // let lastName = null ; //Null type this varible will not contant anything now or in future
 
 
-let name = 'jigar';
-let age = 20 ;
-let person = {
-    name : 'jigar' , 
-    age : 20
-} ;
+// let name = 'jigar';
+// let age = 20 ;
+// let person = {
+//     name : 'jigar' , 
+//     age : 20
+// } ;
 
-console.log(person);
-
-
-//if you want to change the value of person object's property
-//There are 2 ways 
-
-// 1. Dot notation 
-person.name = 'Pratham';
-
-//Also use for reading value of property)
-console.log(person.name);
+// console.log(person);
 
 
-// 2. Bracket notation  
+// //if you want to change the value of person object's property
+// //There are 2 ways 
 
-person['name'] = 'Aayush';
-console.log(person.name);
+// // 1. Dot notation 
+// person.name = 'Pratham';
+
+// //Also use for reading value of property)
+// console.log(person.name);
+
+
+// // 2. Bracket notation  
+
+// person['name'] = 'Aayush';
+// console.log(person.name);
+
+// //Another way of Bracket notation
+
+// let selection = 'name';
+// person[selection] = 'Meet';
+// console.log(person.name);
+
 
