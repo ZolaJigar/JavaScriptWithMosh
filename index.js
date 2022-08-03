@@ -100,25 +100,34 @@
 
 
 //Strings primitives inside the JavaScript
-const message = '      hi i am jigar maheshwari     ';
-console.log(message.length);
-console.log(message[0]);
-console.log(message.includes('i'));
-console.log(message.includes('lol'));
-console.log(message.startsWith('hi'));
-console.log(message.startsWith('I'));
-console.log(message.endsWith('maheshwari'));
-console.log(message.toUpperCase());
-console.log(message.toLowerCase());
-console.log(message.indexOf('maheshwari'));
-console.log(message.replace('maheshwari' , 'zola'));
-console.log(message.trim( ));
-console.log(message.trimRight( ));
-console.log(message.trimLeft( ));
+// const message = '      hi i am jigar maheshwari     ';
+// console.log(message.length);
+// console.log(message[0]);
+// console.log(message.includes('i'));
+// console.log(message.includes('lol'));
+// console.log(message.startsWith('hi'));
+// console.log(message.startsWith('I'));
+// console.log(message.endsWith('maheshwari'));
+// console.log(message.toUpperCase());
+// console.log(message.toLowerCase());
+// console.log(message.indexOf('maheshwari'));
+// console.log(message.replace('maheshwari' , 'zola'));
+// console.log(message.trim( ));
+// console.log(message.trimRight( ));
+// console.log(message.trimLeft( ));
+
+// //String object
+
+// const another = new String('hi');
 
 
+//Escape notation
 
+const msg = '  This is my \'first message'; //it will include this(') inside your string which is used to bracket of string
+console.log(msg);
 
-//String object
+const msg1 = '  This is my \n first message';   // \n It will use for new line
+console.log(msg1);
 
-const another = new String('hi');
+const msg2 = '  This is my \n first message';   //  .split method will use to split the string with particular thing
+console.log(msg1.split(' ' ));
