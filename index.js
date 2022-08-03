@@ -51,10 +51,48 @@
 
 
 //Arrays
-let selectedColors = ['red' , 'blue'] ;
-console.log(selectedColors);  //It will show all the values of array
+// let selectedColors = ['red' , 'blue'] ;
+// console.log(selectedColors);  //It will show all the values of array
 
-// We can access the elememt of array using the index staring from 0 index
-console.log(selectedColors[0]); 
+// // We can access the elememt of array using the index staring from 0 index
+// console.log(selectedColors[0]); 
+
+// //Adding element inside the array at Run time
+
+// selectedColors[2] = 'green';
+// console.log(selectedColors[2]);
+
+// //Unlike other programming languages you can add all types of elements inside one arrray like number  , string 
+
+// selectedColors[3] = 12 ;
+// console.log(selectedColors[3]);
 
 
+// //Lenght property of array to know lenght of array Starting from 0
+
+// console.log(selectedColors.length);
+
+
+//Functions in JS
+
+function greet() {
+    console.log('Hello world');
+}
+greet();
+
+//How to pass value inside the function as arguments
+
+function greet(name) {   //Here name is parameter
+    console.log('Hello ' + name);
+}
+greet('john'); //Its argument that indicate that parameter which is inside the function as arguments
+
+//Types of functions
+
+//Calculating a value
+
+function square(number){
+    return number * number ;
+}
+// let result = square(5);
+console.log(square(2));
