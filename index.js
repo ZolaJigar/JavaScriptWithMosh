@@ -43,9 +43,18 @@
 // console.log(person.name);
 
 // //Another way of Bracket notation
-
+ 
 // let selection = 'name';
 // person[selection] = 'Meet';
 // console.log(person.name);
+
+
+
+//Arrays
+let selectedColors = ['red' , 'blue'] ;
+console.log(selectedColors);  //It will show all the values of array
+
+// We can access the elememt of array using the index staring from 0 index
+console.log(selectedColors[0]); 
 
 
